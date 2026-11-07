@@ -343,6 +343,10 @@ testes =
       (length (mostrarEstatisticas equipasExemplo
                  (tabelaEstatisticas Penaltis equipasExemplo jogosExemplo)))
       9
+      , igual "proximaFase MeiaFinal" (proximaFase MeiaFinal) (Just Final)
+  , igual "fasesDesde MeiaFinal" (fasesDesde MeiaFinal) [MeiaFinal, Final]
+  , igual "numeroDeRondas 4 = 2" (numeroDeRondas 4) 2
+  , igual "faseInicial 4" (faseInicial 4) (Just MeiaFinal)
   ]
 
 -- | Soma dos golos marcados de uma lista de estatísticas.
