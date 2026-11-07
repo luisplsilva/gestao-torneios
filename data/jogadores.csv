@@ -1,0 +1,25 @@
+idEquipa,nome,numero,posicao,golos,assistencias,amarelos,vermelhos,jogos
+1,Miguel Santos,1,GuardaRedes,0,0,0,0,3
+1,Joao Pereira,8,MedioCampo,2,4,1,0,3
+1,Tiago Ramos,9,Avancado,6,1,1,0,3
+2,Carlos Faria,1,GuardaRedes,0,0,0,0,2
+2,Nuno Pinto,6,MedioCampo,0,1,2,0,2
+2,Diogo Matos,10,Avancado,1,0,1,1,2
+3,Ricardo Sousa,1,GuardaRedes,0,0,0,0,2
+3,Hugo Barros,5,MedioCampo,1,2,1,0,2
+3,Daniel Moreira,9,Avancado,2,0,0,0,2
+4,Filipe Rocha,1,GuardaRedes,0,0,0,0,1
+4,Paulo Vieira,3,Defesa,0,0,1,0,1
+4,Sergio Cunha,7,Avancado,0,0,0,0,1
+5,Andre Lopes,1,GuardaRedes,0,0,0,0,3
+5,Bruno Teixeira,4,Defesa,1,0,2,0,3
+5,Ruben Costa,11,Avancado,3,1,1,0,3
+6,Rui Alves,1,GuardaRedes,0,0,0,0,1
+6,Luis Neves,6,MedioCampo,0,0,0,0,1
+6,Pedro Gomes,9,Avancado,1,0,0,0,1
+7,Hugo Dias,1,GuardaRedes,0,0,0,0,1
+7,Vasco Rocha,2,Defesa,0,0,1,0,1
+7,Ivo Marques,10,Avancado,1,0,0,0,1
+8,Jose Ferreira,1,GuardaRedes,0,0,0,0,1
+8,Joel Santos,4,Defesa,0,0,0,1,1
+8,Marco Pires,9,Avancado,0,0,1,0,1
