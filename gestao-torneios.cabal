@@ -1,0 +1,38 @@
+cabal-version:      2.4
+name:               gestao-torneios
+version:            0.1.0.0
+synopsis:           Sistema de Gestao de Torneios Eliminatorios (Fase 1)
+description:        Trabalho pratico de Programacao Funcional (Haskell).
+                    Fase 1: modelacao e nucleo funcional.
+license:            NONE
+build-type:         Simple
+extra-source-files: README.md
+                    data/*.csv
+
+common comum
+    default-language: Haskell2010
+    ghc-options:      -Wall
+
+library
+    import:           comum
+    hs-source-dirs:   src
+    exposed-modules:  Model
+                      Domain
+                      Display
+                      SampleData
+    build-depends:    base >=4.14 && <5
+
+executable gestao-torneios
+    import:           comum
+    main-is:          Main.hs
+    hs-source-dirs:   app
+    build-depends:    base >=4.14 && <5,
+                      gestao-torneios
+
+test-suite spec
+    import:           comum
+    type:             exitcode-stdio-1.0
+    main-is:          Spec.hs
+    hs-source-dirs:   test
+    build-depends:    base >=4.14 && <5,
+                      gestao-torneios
